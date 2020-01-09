@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "178636075101",
+    "firebase_url": "https://soqqle-66dd4.firebaseio.com",
+    "project_id": "soqqle-66dd4",
+    "storage_bucket": "soqqle-66dd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178636075101:android:64894171200de4d4",
+        "android_client_info": {
+          "package_name": "com.soqqle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178636075101-l0hrbcvqvb62bd7ecea6mapi095kmroa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soqqle",
+            "certificate_hash": "8409593ba80c64f4deca908706310f8cdd8e9874"
+          }
+        },
+        {
+          "client_id": "178636075101-ip0cd6bbfba2sr9jl4mhum93ijfoadgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soqqle",
+            "certificate_hash": "52a78ccd724b585cd5753536e0a0ef456408ee4e"
+          }
+        },
+        {
+          "client_id": "178636075101-jd0fac80h0o4dosthncb0b3cjq2dflsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl0jFdHW61yNwU-78Ks-SySfmzKwA46E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178636075101-jd0fac80h0o4dosthncb0b3cjq2dflsv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "178636075101-iofigir1sokd6d2oj2ig3ql1rspne2m4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Soqqle.SoqqleApp",
+                "app_store_id": "1447969070"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

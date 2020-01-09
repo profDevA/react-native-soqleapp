@@ -1,0 +1,42 @@
+apply plugin: 'com.android.library'
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+android {
+    buildToolsVersion safeExtGet('buildToolsVersion', '27.0.3')
+    compileSdkVersion safeExtGet('compileSdkVersion', 26)
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 26)
+        versionCode 4
+        versionName '2.21.0'
+        consumerProguardFiles 'proguard-rules.pro'
+    }
+    lintOptions {
+        abortOnError true
+        warningsAsErrors true
+        baseline file("lint-baseline.xml")
+    }
+}
+
+dependencies {
+    api 'com.bugsnag:bugsnag-android:4.15.0'
+    implementation 'com.facebook.react:react-native:+'
+}
+
+apply plugin: 'checkstyle'
+
+checkstyle {
+    toolVersion = "8.18"
+}
+
+task("checkstyle", type: Checkstyle) {
+    configFile rootProject.file("config/checkstyle/checkstyle.xml")
+    source  "src/"
+    include "**/*.java"
+    exclude "**/external/**/*.java"
+    classpath = files()
+}

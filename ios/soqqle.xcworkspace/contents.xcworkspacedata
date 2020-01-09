@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:soqqle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../node_modules/react-native-mixpanel/RNMixpanel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../node_modules/react-native-svg/ios/RNSVG.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../node_modules/react-native-view-shot/ios/RNViewShot.xcodeproj">
+   </FileRef>
+</Workspace>

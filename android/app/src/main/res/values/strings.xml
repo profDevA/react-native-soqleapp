@@ -1,0 +1,7 @@
+<resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">UeKDaDSX_Iri3Wb2PtljwBJ1p7SDS1XiOLbiV</string>
+    <string name="app_name">soqqle</string>
+    <string name="facebook_app_id">162211384373641</string>
+      <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+</resources>

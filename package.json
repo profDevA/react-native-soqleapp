@@ -30,7 +30,7 @@
     "appcenter": "^2.5.0",
     "appcenter-analytics": "^2.6.0",
     "appcenter-crashes": "^2.5.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bugsnag-react-native": "^2.23.2",
     "hermesvm": "^0.1.1",
     "i18n-js": "^3.5.0",
